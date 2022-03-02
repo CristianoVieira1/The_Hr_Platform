@@ -2,13 +2,12 @@
 
 @section('content')
 
-
-    <section class="page__title p-relative d-flex align-items-center fix" data-background="assets/img/page-title/page-title-1.png" style="background-attachment: fixed;">
+    <section class="page__title p-relative d-flex align-items-center fix" data-background="{{ URL::asset('assets/img/page-title/page-title-1.png') }}" style="background-attachment: fixed;">
         <div class="slider__shape">
-            <img class="shape triangle" src="assets/img/icon/slider/triangle.png" alt="triangle">
-            <img class="shape dotted-square" src="assets/img/icon/slider/dotted-square.png" alt="dotted-square">
-            <img class="shape solid-square" src="assets/img/icon/slider/solid-square.png" alt="solid-square">
-            <img class="shape circle-2" src="assets/img/icon/slider/circle.png" alt="circle">
+            <img class="shape triangle" src="{{ URL::asset('assets/img/icon/slider/triangle.png') }}" alt="triangle">
+            <img class="shape dotted-square" src="{{ URL::asset('assets/img/icon/slider/dotted-square.png') }}" alt="dotted-square">
+            <img class="shape solid-square" src="{{ URL::asset('assets/img/icon/slider/solid-square.png') }}" alt="solid-square">
+            <img class="shape circle-2" src="{{ URL::asset('assets/img/icon/slider/circle.png') }}" alt="circle">
         </div>
         <div class="container">
             <div class="row">
@@ -17,8 +16,8 @@
                         <h2>Opportunities</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Opportunities</li>
+                                <li class="breadcrumb-item"><a href="{{ route('home') }}">Home</a></li>
+                                <li class="breadcrumb-item active"><a href="{{ route('opportunities') }}">Opportunities</a></li>
                             </ol>
                         </nav>
                     </div>
@@ -26,9 +25,7 @@
             </div>
         </div>
     </section>
-    <!-- page title area end -->
 
-    <!-- blog area start -->
     <section class="blog__area pt-120 pb-120">
         <div class="container">
             <div class="row">
@@ -36,7 +33,7 @@
                     <div class="blog__wrapper mr-50">
                         <div class="blog__item-2 mb-50 fix wow fadeInUp" data-wow-delay=".2s">
                             <div class="blog__thumb-2 w-img fix">
-                                <a href="services-details.php"><img src="assets/img/opportunities/opportu.png" alt=""></a>
+                                <a href="services-details.php"><img src="{{ URL::asset('assets/img/opportunities/opportu.png') }}" alt=""></a>
                             </div>
                             <div class="blog__content-2">
                                 <div class="blog__meta-2 mb-15 d-sm-flex align-items-center">
@@ -70,7 +67,7 @@
                         </div>
                         <div class="blog__item-2 mb-50 fix wow fadeInUp" data-wow-delay=".2s">
                             <div class="blog__thumb-2 w-img fix">
-                                <a href="services-details.php"><img src="assets/img/opportunities/opportu.png" alt=""></a>
+                                <a href="services-details.php"><img src="{{ URL::asset('assets/img/opportunities/opportu.png') }}" alt=""></a>
                             </div>
                             <div class="blog__content-2">
                                 <div class="blog__meta-2 mb-15 d-sm-flex align-items-center">
@@ -126,7 +123,7 @@
                                     <ul>
                                         <li class="d-flex mb-20">
                                             <div class="rc-thumb mr-15">
-                                                <a href="services-details.php"><img src="assets/img/blog/rc/rc-1.png" alt="rc-post"></a>
+                                                <a href="services-details.php"><img src="{{ URL::asset('assets/img/blog/rc/rc-1.png') }}" alt="rc-post"></a>
                                             </div>
                                             <div class="rc-text">
                                                 <h6><a href="services-details.php">Project Manager, Academy Services.</a></h6>
@@ -135,7 +132,7 @@
                                         </li>
                                         <li class="d-flex mb-20">
                                             <div class="rc-thumb mr-15">
-                                                <a href="services-details.php"><img src="assets/img/blog/rc/rc-1.png" alt="rc-post"></a>
+                                                <a href="services-details.php"><img src="{{ URL::asset('assets/img/blog/rc/rc-1.png') }}" alt="rc-post"></a>
                                             </div>
                                             <div class="rc-text">
                                                 <h6><a href="services-details.php">Project Manager, Academy Services.</a></h6>
@@ -144,7 +141,7 @@
                                         </li>
                                         <li class="d-flex mb-20">
                                             <div class="rc-thumb mr-15">
-                                                <a href="services-details.php"><img src="assets/img/blog/rc/rc-1.png" alt="rc-post"></a>
+                                                <a href="services-details.php"><img src="{{ URL::asset('assets/img/blog/rc/rc-1.png') }}" alt="rc-post"></a>
                                             </div>
                                             <div class="rc-text">
                                                 <h6><a href="services-details.php">Project Manager, Academy Services.</a></h6>
@@ -161,7 +158,5 @@
             </div>
         </div>
     </section>
-
-
 
 @endsection
