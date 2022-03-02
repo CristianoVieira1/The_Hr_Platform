@@ -3,47 +3,7 @@
 @section('content')
 <section class="slider__area slider__area-2">
     <div class="slider-active">
-        <!-- <div class="single-slider single-slider-2 slider__height slider__height-2 d-flex align-items-center"
-            data-background="assets/img/slider/02/slider-2.png">
-            <div class="container">
-                <div class="row">
-                    <div
-                        class="col-xl-7 offset-xl-6 col-lg-8 offset-lg-4 col-md-9 offset-md-3 col-sm-10 offset-sm-2">
-                        <div class="slider__content slider__content-2">
-                            <h1 data-animation="fadeInUp" data-delay=".5s">An enterprise <br> specialized in
-                                human resources </h1>
-                            <p data-animation="fadeInUp" data-delay=".7s">consultancy for small businesses and
-                                career advice for individuals .</p>
-                            <div class="slider__btn" data-animation="fadeInUp" data-delay=".9s">
-                                <a href="{{ url('https://calendly.com/hrplatform/consultation?month=2022-02')}}" target="_blank"
-                                    class="z-btn z-btn-transparent">Contact US</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- <div class="single-slider single-slider-2 slider__height slider__height-2 d-flex align-items-center"
-            data-background="assets/img/slider/02/slider-2.png">
-            <div class="container">
-                <div class="row">
-                    <div
-                        class="col-xl-8 offset-xl-2 col-lg-8 offset-lg-2 col-md-9 offset-md-3 col-sm-10 offset-sm-2">
-                        <div class="slider__content slider__content-2 slider__content-3 text-center">
-                            <h1 data-animation="fadeInUp" data-delay=".5s">Finance Consulting For Challenging
-                                Times</h1>
-                            <p data-animation="fadeInUp" data-delay=".7s">Work with a advisor to plan for
-                                your future.</p>
-                            <div class="slider__btn" data-animation="fadeInUp" data-delay=".9s">
-                                <a href="{{ url('https://calendly.com/hrplatform/consultation?month=2022-02')}}" target="_blank"
-                                    class="z-btn z-btn-transparent">Get a Free Quote</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <div class="single-slider single-slider-2 slider__height slider__height-2 d-flex align-items-center" data-background="assets/img/slider/02/slider-3.png">
+        <div class="single-slider single-slider-2 slider__height slider__height-2 d-flex align-items-center" data-background="{{ URL::asset('assets/img/slider/02/slider-3.png') }}">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-6">
@@ -60,7 +20,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </section>
 <!-- slider area end -->
@@ -71,10 +30,7 @@
         <div class="row">
             <div class="col-xl-5 col-lg-6">
                 <div class="features__content-left">
-                    <!-- "section title h2" is for "home 2" title -->
                     <div class="section__title section__title-h2 mb-25">
-                        <!-- <span class="wow fadeInUp" data-wow-delay=".2s">Design Accordlogy</span>
-                            <h2 class="wow fadeInUp" data-wow-delay=".4s">Enrich <br> your design</h2> -->
                         <img class="vc_single_image-img " src="assets/img/Artboard.jpg" width="500" height="510" alt="Artboard" title="Artboard" data-pagespeed-url-hash="1726348179" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                     </div>
                     <p class="wow fadeInUp" data-wow-delay=".6s">Be compliant! Book a consultation today!</p>
@@ -87,7 +43,7 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                             <div class="features__item features__item-2 white-bg fix mb-30 wow fadeInUp" data-wow-delay=".2s">
-                                <div class="features__thumb-2" data-background="assets/img/features/02/features-1.jpg"></div>
+                                <div class="features__thumb-2" data-background="{{ URL::asset('assets/img/features/02/features-1.jpg') }}"></div>
                                 <div class="features__content-2">
                                     <div class="features__icon features__icon-2">
                                         <i class="icon_lightbulb_alt"></i>
@@ -98,7 +54,7 @@
                                 </div>
                             </div>
                             <div class="features__item features__item-2 white-bg fix mb-30 wow fadeInUp" data-wow-delay=".6s">
-                                <div class="features__thumb-2" data-background="assets/img/features/02/features-1.jpg"></div>
+                                <div class="features__thumb-2" data-background="{{ URL::asset('assets/img/features/02/features-1.jpg') }}"></div>
                                 <div class="features__content-2">
                                     <div class="features__icon features__icon-2">
                                         <i class="icon_document_alt"></i>
@@ -110,7 +66,7 @@
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                             <div class="features__item features__item-2 white-bg fix mb-30 wow fadeInUp" data-wow-delay=".4s">
-                                <div class="features__thumb-2" data-background="assets/img/features/02/features-1.jpg"></div>
+                                <div class="features__thumb-2" data-background="{{ URL::asset('assets/img/features/02/features-1.jpg') }}"></div>
                                 <div class="features__content-2">
                                     <div class="features__icon features__icon-2">
                                         <i class="icon_ribbon_alt"></i>
@@ -120,7 +76,7 @@
                                 </div>
                             </div>
                             <div class="features__item features__item-2 white-bg fix mb-30 wow fadeInUp" data-wow-delay=".8s">
-                                <div class="features__thumb-2" data-background="assets/img/features/02/features-1.jpg"></div>
+                                <div class="features__thumb-2" data-background="{{ URL::asset('assets/img/features/02/features-1.jpg')}}"></div>
                                 <div class="features__content-2">
                                     <div class="features__icon features__icon-2">
                                         <i class="icon_lock_alt"></i>
@@ -140,7 +96,7 @@
 
 <!-- faq area start -->
 <section class="faq__area p-relative pt-135 pb-120 grey-bg-12">
-    <div class="faq__thumb" data-background="assets/img/faq/faq-1.png"></div>
+    <div class="faq__thumb" data-background="{{ URL::asset('assets/img/faq/faq-1.png') }}"></div>
     <div class="container">
         <div class="row">
             <div class="col-xl-5 offset-xl-7 col-lg-6 offset-lg-6 col-md-7 offset-md-5">
@@ -202,123 +158,7 @@
         </div>
     </div>
 </section>
-<!-- faq area end -->
 
-<!-- achievement area start -->
-<!-- <section class="achievement__area pt-135 pb-40">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-5 col-lg-6 col-md-6">
-                <div class="achievement__content">
-                    <div class="section__title section__title-3 mb-20">
-                        <span class="wow fadeInUp" data-wow-delay=".2s">Achievement</span>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">We are certified financial experts</h2>
-                    </div>
-                    <p class="wow fadeInUp" data-wow-delay=".6s">He nicked it fantastic well on your bike mate
-                        have it a I bum bag I twit easy peasy that, chimney pot amongst are you taking the piss
-                        daft show off show off pick.</p>
-                    <div class="achievement__wrapper d-flex d-md-block d-lg-flex justify-content-between mb-35 wow fadeInUp"
-                        data-wow-delay=".8s">
-                        <div class="achievement__item mb-30">
-                            <img src="assets/img/icon/achievement/achievement-1.png" alt="achievement">
-                            <h3>Acquisitions Finance Consulting</h3>
-                        </div>
-                        <div class="achievement__item mb-30 wow fadeInUp" data-wow-delay="1s">
-                            <img src="assets/img/icon/achievement/achievement-2.png" alt="achievement">
-                            <h3>Private Placement Consulting</h3>
-                        </div>
-                    </div>
-                    <a href="about.php" class="z-btn">Learn More</a>
-                </div>
-            </div>
-            <div class="col-xl-7 col-lg-6 col-md-6">
-                <div class="row">
-                    <div class="col-xl-7 col-sm-6">
-                        <div class="achievement__thumb m-img pl-30 text-right wow fadeInRight"
-                            data-wow-delay=".8s">
-                            <img src="assets/img/achievement/achievement-1.jpg" alt="achievement-1">
-                        </div>
-                    </div>
-                    <div class="col-xl-5 col-sm-6 d-md-none d-lg-none d-xl-block wow fadeInRight"
-                        data-wow-delay="1s">
-                        <div class="achievement__thumb w-img">
-                            <img src="assets/img/achievement/achievement-2.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- achievement area end -->
-
-<!-- expart area start -->
-<!-- <section class="expart__area pt-200 wow fadeInUp" data-wow-delay=".4s">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="expart__wrapper">
-                    <div class="expart__nav">
-                        <ul class="nav nav-pills justify-content-end" id="expart-tab" role="tablist">
-                            <li class="nav-item text-center">
-                                <a class="nav-link active" id="philosophy-tab" data-toggle="pill"
-                                    href="#philosophy" role="tab" aria-controls="philosophy"
-                                    aria-selected="true">Philosophy</a>
-                            </li>
-                            <li class="nav-item text-center">
-                                <a class="nav-link" id="work-tab" data-toggle="pill" href="#work" role="tab"
-                                    aria-controls="work" aria-selected="false">Work Area</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="expart__tab">
-                        <div class="tab-content" id="expart-Content">
-                            <div class="tab-pane fade show active" id="philosophy" role="tabpanel"
-                                aria-labelledby="philosophy-tab">
-                                <div class="expart__tab-content white-bg">
-                                    <div class="expart__thumb" data-background="assets/img/expart/expart-1.jpg">
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-xl-6 col-lg-6 offset-lg-6">
-                                            <div class="expart__content">
-                                                <h3>Our experts will <br> guide you</h3>
-                                                <p>Tosser me old mucker lurgy cheeky bugger young delinquent
-                                                    squiffy at public school lost the plot fanny around, haggle
-                                                    daft my lady faff about old pear.</p>
-                                                <a href="about.php" class="z-btn">Learn More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="work" role="tabpanel" aria-labelledby="work-tab">
-                                <div class="expart__tab-content white-bg">
-                                    <div class="expart__thumb" data-background="assets/img/expart/expart-1.jpg">
-                                    </div>
-                                    <div class="row">
-
-                                        <div class="col-xl-6 offset-lg-6">
-                                            <div class="expart__content">
-                                                <h3>Our experts will <br> guide you</h3>
-                                                <p>Tosser me old mucker lurgy cheeky bugger young delinquent
-                                                    squiffy at public school lost the plot fanny around, haggle
-                                                    daft my lady faff about old pear.</p>
-                                                <a href="about.php" class="z-btn">Learn More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- expart area end -->
-
-<!-- blog area start -->
 <section class="blog__area grey-bg-15 pt-115 pb-135">
     <div class="container">
         <div class="row">
@@ -355,7 +195,7 @@
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="blog__item p-relative fix mb-30 white-bg wow fadeInUp" data-wow-delay=".4s">
-                    <div class="blog__thumb" data-background="assets/img/blog/blog-1.jpg"></div>
+                    <div class="blog__thumb" data-background="{{ url('assets/img/blog/blog-1.jpg') }}"></div>
                     <div class="blog__content">
                         <div class="blog__meta date mb-45">
                             <h4>February</h4>
@@ -379,7 +219,7 @@
             </div>
             <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="blog__item p-relative fix mb-30 white-bg wow fadeInUp" data-wow-delay=".6s">
-                    <div class="blog__thumb" data-background="assets/img/blog/blog-1.jpg"></div>
+                    <div class="blog__thumb" data-background="{{ URL::asset('assets/img/blog/blog-1.jpg') }}"></div>
                     <div class="blog__content">
                         <div class="blog__meta date mb-45">
                             <h4>February</h4>
@@ -441,7 +281,7 @@
     <div class="container-fluid p-0">
         <div class="row no-gutters">
             <div class="col-xl-12">
-                <div class="contact__map cta__area" data-background="assets/img/cta/cta-bg.png">
+                <div class="contact__map cta__area" data-background="{{ URL::asset('assets/img/cta/cta-bg.png') }}">
 
                     <div class="contact__wrapper d-md-flex justify-content-between" data-wow-delay=".3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <div class="contact__info mr-100">

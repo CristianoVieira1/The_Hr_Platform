@@ -8,7 +8,7 @@
                             <div class="footer__widget mb-45">
                                 <div class="footer__widget-title mb-30">
                                     <div class="logo">
-                                        <a href="index.php">
+                                        <a href="{{ url('route') }}">
                                             <img src="{{ URL::asset('assets/img/logo/logo_footer.png')}}" alt="">
                                         </a>
                                     </div>
@@ -18,21 +18,21 @@
                                     <div class="footer__social theme-social mb-30">
                                         <ul>
                                             <li>
-                                                <a href="#">
+                                                <a href="{{ url('https://www.facebook.com/The-HR-Platform-100653435035853') }}" target="_blanck">
                                                     <i class="fab fa-facebook-f"></i>
                                                     <i class="fab fa-facebook-f"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i class="fab fa-twitter"></i>
-                                                    <i class="fab fa-twitter"></i>
+                                                <a href="{{ url('https://www.instagram.com/thehrplatform/') }}" target="_blanck">
+                                                    <i class="fab fa-instagram"></i>
+                                                    <i class="fab fa-instagram"></i>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#">
-                                                    <i class="fab fa-vimeo-v"></i>
-                                                    <i class="fab fa-vimeo-v"></i>
+                                                <a href="{{ url('https://www.linkedin.com/company/thehrplatform/') }}" target="_blanck">
+                                                    <i class="fab fa-linkedin"></i>
+                                                    <i class="fab fa-linkedin"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -48,8 +48,8 @@
                                 <div class="footer__widget-content">
                                     <div class="footer__links">
                                         <ul>
-                                            <li><a href="index.php">Home</a></li>
-                                            <li><a href="about.php">About Us </a></li>
+                                            <li><a href="{{ route('home') }}">Home</a></li>
+                                            <li><a href="{{ route('about') }}">About Us </a></li>
                                             <li><a href="services.php">Opportunities</a></li>
                                             <li><a href="{{ url('https://calendly.com/hrplatform/consultation?month=2022-02')}}" target="_blank">Contact
                                                     us</a></li>

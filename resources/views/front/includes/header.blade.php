@@ -6,12 +6,12 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6">
                         <div class="logo">
                             <a href="{{ route('home')}}">
-                                <img src="assets/img/logo/logo.png" alt="logo">
+                                <img src="{{ URL::asset('assets/img/logo/logo.png') }}" alt="logo">
                             </a>
                         </div>
                         <div class="logo-gradient">
                             <a href="{{ route('home')}}">
-                                <img src="assets/img/logo/logo-gradient.png" alt="logo">
+                                <img src="{{ URL::asset('assets/img/logo/logo-gradient.png') }}" alt="logo">
                             </a>
                         </div>
                     </div>
