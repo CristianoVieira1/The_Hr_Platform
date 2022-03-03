@@ -245,7 +245,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <div class="blog__more mt-60">
-                    <a href="services.php" class="z-btn z-btn-border">View all Opportunities <i
+                    <a href="{{ route('opportunities') }}" class="z-btn z-btn-border">View all Opportunities <i
                             class="far fa-long-arrow-right"></i></a>
                 </div>
             </div>

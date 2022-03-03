@@ -1,6 +1,8 @@
 <?php
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\WebController;
+use App\Http\Controllers\{
+    WebController,
+};
 
 
 
@@ -13,6 +15,8 @@ Route::get('/about', [WebController::class, 'about'])->name('about');
 
 // Opportunities
 Route::get('/opportunities', [WebController::class, 'opportunities'])->name('opportunities');
+
+
 
 
 
