@@ -1,4 +1,4 @@
-    <!-- footer area start -->
+
     <footer>
         <div class="footer__area pt-100">
             <div class="footer__top pb-45">
@@ -50,7 +50,7 @@
                                         <ul>
                                             <li><a href="{{ route('home') }}">Home</a></li>
                                             <li><a href="{{ route('about') }}">About Us </a></li>
-                                            <li><a href="services.php">Opportunities</a></li>
+                                            <li><a href="{{ route('opportunities') }}">Opportunities</a></li>
                                             <li><a href="{{ url('https://calendly.com/hrplatform/consultation?month=2022-02')}}" target="_blank">Contact
                                                     us</a></li>
                                         </ul>

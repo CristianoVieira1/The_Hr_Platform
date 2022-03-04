@@ -155,11 +155,9 @@
                         <div class="sidebar__widget mb-75 wow fadeInUp" data-wow-delay=".4s">
                             <div class="sidebar__widget-title mb-50">
                                 <h4>Didn't find an opportunity, send us your resume</h4>
-                                @include('front.includes.form')
+                                @include('front.includes.contact')
                             </div>
-
                         </div>
-
                     </div>
                 </div>
             </div>
